@@ -1,0 +1,114 @@
+[package]
+name = "aoc-2021"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "common"
+path = "common/lib.rs"
+
+[dependencies]
+
+
+[[example]]
+name = "01"
+path = "days/01.rs"
+
+[[example]]
+name = "02"
+path = "days/02.rs"
+
+[[example]]
+name = "03"
+path = "days/03.rs"
+
+[[example]]
+name = "04"
+path = "days/04.rs"
+
+[[example]]
+name = "05"
+path = "days/05.rs"
+
+[[example]]
+name = "06"
+path = "days/06.rs"
+
+[[example]]
+name = "07"
+path = "days/07.rs"
+
+[[example]]
+name = "08"
+path = "days/08.rs"
+
+[[example]]
+name = "09"
+path = "days/09.rs"
+
+[[example]]
+name = "10"
+path = "days/10.rs"
+
+[[example]]
+name = "11"
+path = "days/11.rs"
+
+[[example]]
+name = "12"
+path = "days/12.rs"
+
+[[example]]
+name = "13"
+path = "days/13.rs"
+
+[[example]]
+name = "14"
+path = "days/14.rs"
+
+[[example]]
+name = "15"
+path = "days/15.rs"
+
+[[example]]
+name = "16"
+path = "days/16.rs"
+
+[[example]]
+name = "17"
+path = "days/17.rs"
+
+[[example]]
+name = "18"
+path = "days/18.rs"
+
+[[example]]
+name = "19"
+path = "days/19.rs"
+
+[[example]]
+name = "20"
+path = "days/20.rs"
+
+[[example]]
+name = "21"
+path = "days/21.rs"
+
+[[example]]
+name = "22"
+path = "days/22.rs"
+
+[[example]]
+name = "23"
+path = "days/23.rs"
+
+[[example]]
+name = "24"
+path = "days/24.rs"
+
+[[example]]
+name = "25"
+path = "days/25.rs"
+
