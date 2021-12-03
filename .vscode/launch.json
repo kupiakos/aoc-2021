@@ -1,0 +1,952 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'common'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "common",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '01'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=01",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "01",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '01'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=01",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "01",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '02'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=02",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "02",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '02'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=02",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "02",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '03'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=03",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "03",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '03'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=03",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "03",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '04'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=04",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "04",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '04'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=04",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "04",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '05'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=05",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "05",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '05'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=05",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "05",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '06'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=06",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "06",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '06'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=06",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "06",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '07'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=07",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "07",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '07'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=07",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "07",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '08'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=08",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "08",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '08'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=08",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "08",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '09'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=09",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "09",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '09'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=09",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "09",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '10'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=10",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '10'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=10",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '11'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=11",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '11'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=11",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '12'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=12",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "12",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '12'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=12",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "12",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '13'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=13",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "13",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '13'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=13",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "13",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '14'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=14",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "14",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '14'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=14",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "14",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '15'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=15",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "15",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '15'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=15",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "15",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '16'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=16",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "16",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '16'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=16",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "16",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '17'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=17",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "17",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '17'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=17",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "17",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '18'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=18",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "18",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '18'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=18",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "18",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '19'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=19",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "19",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '19'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=19",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "19",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '20'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=20",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "20",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '20'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=20",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "20",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '21'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=21",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "21",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '21'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=21",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "21",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '22'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=22",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "22",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '22'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=22",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "22",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '23'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=23",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "23",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '23'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=23",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "23",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '24'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=24",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "24",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '24'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=24",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "24",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '25'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=25",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "25",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '25'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=25",
+                    "--package=aoc-2021"
+                ],
+                "filter": {
+                    "name": "25",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
