@@ -1,4 +1,4 @@
-use std::{io::{self, Read}, fs::File, path::Path};
+use std::{io::{self, Read}, fs::File, path::Path, fmt::{Debug, Display}};
 
 #[macro_export]
 macro_rules! get_input {
@@ -29,4 +29,16 @@ pub fn read_input(path: &Path) -> String {
         },
         Err(e) => panic!("Unknown error reading input: {:?}", e),
     }
+}
+
+pub struct PanicOnError;
+
+impl Debug for PanicOnError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str("call From<T> to use correctly")
+    }
+}
+
+impl<T: Display> From<T> for PanicOnError {
+    fn from(error: T) -> PanicOnError { panic!("error: {}", error) }
 }

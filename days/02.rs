@@ -1,6 +1,6 @@
-use std::str::FromStr;
+use std::{str::FromStr};
 
-use common::get_input;
+use common::{get_input, PanicOnError};
 
 fn part1(iter: impl Iterator<Item = Movement>) -> i32 {
     let mut pos = 0;
@@ -41,12 +41,12 @@ enum Movement {
 }
 
 impl FromStr for Movement {
-    type Err = ();
+    type Err = PanicOnError;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         let mut i = s.split(" ");
         let direction = i.next().unwrap();
-        let amount: i32 = i.next().unwrap().parse().unwrap();
+        let amount: i32 = i.next().unwrap().parse()?;
         Ok(match direction {
             "forward" => Movement::Forward(amount),
             "down" => Movement::Down(amount),
