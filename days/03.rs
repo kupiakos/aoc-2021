@@ -61,7 +61,6 @@ fn bit_is_mostly_set(iter: impl Iterator<Item = u32>, bit: u32) -> bool {
     set * 2 >= len
 }
 
-
 fn find_rating(mut values: Vec<u32>, max_width: u32, flip: bool) -> Option<u32> {
     let mut mask = 0;
     for bit in (0..max_width).into_iter().rev() {

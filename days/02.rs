@@ -1,4 +1,4 @@
-use std::{str::FromStr};
+use std::str::FromStr;
 
 use common::{get_input, PanicOnError};
 
@@ -26,7 +26,7 @@ fn part2(iter: impl Iterator<Item = Movement>) -> i32 {
             Forward(a) => {
                 pos += a;
                 depth += aim * a;
-            },
+            }
             Down(a) => aim += a,
             Up(a) => aim -= a,
         }
