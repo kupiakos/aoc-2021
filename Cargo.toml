@@ -12,6 +12,7 @@ path = "common/lib.rs"
 [dependencies]
 itertools = "0.10"
 ndarray = "0.15"
+num-traits = "0.2"
 
 [[bin]]
 name = "01"
